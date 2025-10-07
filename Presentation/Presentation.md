@@ -121,7 +121,7 @@ style: |
   * Data entry by the End User
   * Data from Internet
   * The End user receives a personalized training plan.
-
+<!--Derya -->
 ---
 # Methods, tools and Algorithms
 <!---functionalities (insert data and receive a personalized training plan, etc.)
@@ -153,7 +153,7 @@ style: |
   * can lead to injuries due to incorrect training suggestions
 * Requires a lot of time and resources.
   * high costs und delays
-* Data must always be updated and maintained.
+  * Data must always be updated and maintained.
 * Data breach and Data loss
 <!--Description of the risks associated with an 
 introduction/implementation of the solution-->
@@ -178,7 +178,7 @@ introduction/implementation of the solution-->
 * Gradient boosting 
   * More accurate
   * May be over-fitted
-
+<!-- Who is presenting this slied? :D -->
 ---
 
 # Sources
