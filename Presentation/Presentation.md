@@ -221,7 +221,8 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
   * The End user receives a personalized training plan.
 <!--Derya this actually -->
 ---
-# Methods, tools and Algorithms
+# Methods, tools and Algorithms // would add some other algorithm, see next slide to get inspiration/
+
 <!---functionalities (insert data and receive a personalized training plan, etc.)
 #Supervised Learning--->
   * Supervised Learning
@@ -235,6 +236,43 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
 - KNN: Simple implementation, good results are achieved with similar user types. 
 -->
 <!-- Derya -->
+---
+
+# Methods, tools and Algorithms
+
+<div class="columns">
+<div>
+
+### Classification 🎯
+* **K-Nearest Neighbors (KNN)**
+  * Find similar user profiles
+  * Recommend based on comparable cases
+* **Random Forests**
+  * Robust decision-making
+  * Handles complex user attributes
+
+</div>
+<div>
+
+---
+
+### Regression 📈
+* **Linear Regression**
+  * Predict improvement percentages
+  * Estimate workout outcomes
+* **Gradient Boosting**
+  * High accuracy predictions
+  * Optimizes training intensity
+
+</div>
+</div>
+
+---
+
+### Data Processing 🔧
+* **SMOTE** - Balance underrepresented groups
+* **Cross-Validation** - Ensure model reliability
+* **Feature Engineering** - Extract meaningful patterns from raw data
 
 ---
 
