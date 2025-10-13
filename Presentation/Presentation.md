@@ -229,10 +229,10 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
 ---
 
 # Description of the possible solution
-# 
-* Functionalities 🔧
-  * Data entry by the End User
-  * Data from Internet
+
+* **Functionalities 🔧**
+  * the End User enters his **data**
+  * Apex connects the data from the End user and the data from the Internet.
   * The End user receives a personalized training plan.
 <!-- Feedback from Aaron: ISNT@ THIS A REPETITION FROM SLIDE 4?? It looks the same, but it's not the same XD in hier, i will describe what the Functionality is, what date we got and where-->
 <!--Derya this actually -->
@@ -241,13 +241,14 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
 
 <!---functionalities (insert data and receive a personalized training plan, etc.)
 #Supervised Learning--->
-  * Supervised Learning
-    * Classification
-    * Regression
-  * Unsupervised Learning
-    * Clustering
-    * Association
-    * Generalization 
+  * **Methods > Supervised Learning**
+    * Supervised Learning <!-- we use, because-->
+      * Classification
+      * Regression
+    * Unsupervised Learning
+      * Clustering
+      * Association
+      * Generalization 
   * K-Nearest Neighbors (KNN)
 <!-- machine learning many would be used and then assembled together -->
   * Random Forests
@@ -278,7 +279,7 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
 
 ---
 
-### Regression 📈
+### Algorithms 📈
 * **Linear Regression**
   * Predict improvement percentages
   * Estimate workout outcomes
@@ -308,13 +309,12 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
 <!-- Aaron -->
 ---
 # Possible risks, barriers and obstacles
-* Incomplete data can lead to incorrect results.
-<!-- Hier beispiel machen wie, dass ein User ein falsches Resultat erhalten könnte, weil es gewisse daten fehlen-->
+* **Incomplete data can lead to incorrect results.**
   * can lead to injuries due to incorrect training suggestions
-* Requires a lot of time and resources.
+* **Requires a lot of time and resources.**
   * high costs und delays
   * Data must always be updated and maintained.
-* Data breach and Data loss
+* **Data breach and Data loss.**
 <!--Description of the risks associated with an 
 introduction/implementation of the solution-->
 <!--Description of possible barriers and obstacles to the introduction/implementation of the solution
