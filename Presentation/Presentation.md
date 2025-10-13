@@ -20,20 +20,58 @@ style: |
     text-align: center;
   }
   
-  section.centered-narrow h1,
+  section.centered-narrow h1:not([data-auto-scaling]) {
+    font-size: 3rem;
+    width: 100%;
+  }
+  
   section.centered-narrow h2 {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
+  
+  section.centered-fit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  section.centered-fit h1,
+  section.centered-fit h2 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+--- 
+
+<!-- _class: centered-narrow -->
+# Have you ever felt
+# like your training
+# wasn't producing results?
+<!-- Derya -->
+<!-- Here we should ask the audience to involve it, maybe just with a hand raise -->
+
+---
+
+<!-- _class: centered-narrow -->
+
+
+# If yes! Meet **Apex** ![w:220 center](data/apex-logo.svg)
+## Your AI-powered personal trainer
+
+<!-- Derya -->
 
 ---
 
 <div class="columns">
 <div>
 
-# Training optimizer
-# add nice image
+# Our AI: **Apex**
+![w:220](data/apex-logo.svg)
 
 </div>
 <div>
@@ -49,13 +87,14 @@ style: |
     * Kickboxing
 
 <!-- Start Aaron -> Derya -->
---- 
 
-# <!--fit--> How many of you
-# <!--fit--> train with results
-# <!--fit--> far from expectations?
+---
+
+# How does **Apex** work? // would expand a lil more on the slide
+* Input every data available
+* Outputs personalized training plans
+<!-- i will try to put a diagramm wich is showing of our input and output -->
 <!-- Derya -->
-<!-- Here we should ask the audience to involve it, maybe just with a hand raise -->
 
 ---
 
@@ -64,13 +103,6 @@ style: |
 * hard to find good exercises
 * time is always too little
 ![bg right:50% w:500](data/image.png)
-<!-- Derya -->
----
-
-# Our AI application
-* Input every data available
-* Outputs personalized training plans
-<!-- i will try to put a diagramm wich is showing of our input and output -->
 <!-- Derya -->
 ---
 
@@ -92,39 +124,102 @@ style: |
 * Training periodization
 * List of exercises
 * Alimentation improvement tips
-* Corresponding improvement % [integer]
+* Corresponding improvement % [Continuos]
 
 <!-- Aaron -->
 ---
 
-# Data availability
-* Internet
-  * Scientific papers
-  * Studies
-* Surveys
-* Smartwatches
-* Gyms/Coaches
-* Testers
+# Data Sources 📊
+
+<div class="columns">
+<div>
+
+### Research & Literature 📚
+* Scientific papers
+* Studies & publications
+* Medical research
+
+### Real-World Data 💪
+* Gyms & fitness centers
+* Professional coaches
+* Testers & athletes
+
+</div>
+<div>
+
+### User-Generated 📱
+* Surveys & questionnaires
+* Smartwatch data
+* Fitness app tracking
+
+### Continuous Growth 🔄
+* Data collected from **Apex** users
+* Feedback loops improve recommendations
+* Always learning, always improving
+
+</div>
+</div>
+
+<!-- Aaron -->
+
+---
+
+# Data Preprocessing 🔧
+
+* Convert different units & scales to comparable values
+  * Height (cm), Weight (kg), Age (years) → same scale
+
+* **Standardization** → for classification algorithms (KNN, Random Forest)
+* **Normalization** → for regression algorithms
+
+✅ Enables AI to find hidden correlations between attributes
 
 <!-- Aaron -->
 ---
 
-# Normalization / standardization
 
-* SI units
-* Normalization/Standardization of continuos attributes
-<!-- normalization of continuous attributes could prove useful in running a k-nn algorithm to find correlation in attributes we didn't think had correlation (same goes for standardization in the case of a linear regression-->
+<!-- _class: centered-fit -->
+
+# <!--fit--> Few data?
+# <!--fit--> -> More data!
+## <!--fit--> 🧪 Synthetic data!
 
 <!-- Aaron -->
+---
+
+# SMOTE  
+### Synthetic Minority Oversampling Technique  
+
+* Used when we have **imbalanced datasets**  
+  → e.g., 90% fit people and only 10% overweight  
+* Problem: ML models may **ignore the minority class**  
+* SMOTE helps by **creating new synthetic examples** of the minority class instead of just copying them
+
+<!--Aaron-->
+---
+
+# How SMOTE Works (Simple Example)
+
+**Real scenario:** You have only 10% overweight users in your data
+
+SMOTE finds two **similar overweight users** and creates a new realistic profile between them:
+
+* **User A:** Age 35, Weight 95kg, Beginner level  
+* **User B:** Age 40, Weight 100kg, Beginner level  
+* **New synthetic user:** Age 37, Weight 97kg, Beginner level ✨
+
+✅ This makes the minority class **denser and more balanced**(27%)
+
+<!--Aaron-->
 ---
 
 # Description of the possible solution
-
+# ISNT@ THIS A REPETITION FROM SLIDE 4?? FNDIALIDNDJSAJDNSACJKDANCDKSANKC
 * Functionalities
   * Data entry by the End User
   * Data from Internet
   * The End user receives a personalized training plan.
-<!--Derya -->
+<!--Derya this actually -->
 ---
 # Methods, tools and Algorithms
 <!---functionalities (insert data and receive a personalized training plan, etc.)
@@ -140,43 +235,10 @@ style: |
 - KNN: Simple implementation, good results are achieved with similar user types. 
 -->
 <!-- Derya -->
----
-
-<!-- _class: centered-narrow -->
-
-# <!--fit--> Few data?
-# <!--fit--> -> More data!
-## <!--fit--> 🧪 Synthetic data!
-
-<!-- Aaron -->
----
-
-# SMOTE  
-### Synthetic Minority Oversampling Technique  
-
-* Used when we have **imbalanced datasets**  
-  → e.g., 90% fit people and only 10% overweight  
-* Problem: ML models may **ignore the minority class**  
-* SMOTE helps by **creating new synthetic examples** of the minority class instead of just copying them  
 
 ---
 
-# How SMOTE Works (Simple Example)
-
-Imagine you have these few minority points:
-
-SMOTE picks two close points (neighbors) and makes a **new one in between**  
-
-* Example:  
-  * Point A: (2, 4)  
-  * Point B: (4, 6)  
-  * New point: somewhere between them, e.g., (3, 5)  
-
-✅ This makes the minority class **denser and more balanced**
-
----
-
-# Why better?
+# Why **Apex** is better?
 * Open source
 * Effective optimization
 * Lower risk of injury
@@ -210,12 +272,6 @@ introduction/implementation of the solution-->
 
 <!-- Both -->
 
----
-# Methods and algorithms
-* Gradient boosting 
-  * More accurate
-  * May be over-fitted
-<!-- Who is presenting this slied? :D -->
 ---
 
 # Sources
