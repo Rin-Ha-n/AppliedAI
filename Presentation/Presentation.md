@@ -11,6 +11,21 @@ style: |
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
   }
+  
+  section.centered-narrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  section.centered-narrow h1,
+  section.centered-narrow h2 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 ---
 
@@ -33,14 +48,14 @@ style: |
     * Informatik
     * Kickboxing
 
-<!-- both -->
+<!-- Start Aaron -> Derya -->
 --- 
 
 # <!--fit--> How many of you
 # <!--fit--> train with results
 # <!--fit--> far from expectations?
-<!-- Here we should ask the audience to involve it -->
 <!-- Derya -->
+<!-- Here we should ask the audience to involve it, maybe just with a hand raise -->
 
 ---
 
@@ -67,7 +82,7 @@ style: |
 * Objective [categorical]
 * Available time [categorical]
 * Favorite exercises [categorical]
-* Biological attributes (BMI, body fat%, medical condition, etc.)
+* Biological attributes (Height, body fat%, medical condition, etc.)
 * Alimentation (Diet type, enhancing substances, etc.)
 
 </div>
@@ -76,20 +91,8 @@ style: |
 ## Output attributes:
 * Training periodization
 * List of exercises
-* Alimentation improvement
-* Corresponding improvement  [integer]
-
-<!-- Aaron -->
----
-<div style="display:flex; justify-content:center; align-items:center; height:100vh;">
-  <h1 style="font-size:4em; text-align:center; line-height:1.2; background:none;">
-
-   More data!
-   Synthetic one!
-   <!--smote-->
-  
-  </h1>
-</div>
+* Alimentation improvement tips
+* Corresponding improvement % [integer]
 
 <!-- Aaron -->
 ---
@@ -137,6 +140,40 @@ style: |
 - KNN: Simple implementation, good results are achieved with similar user types. 
 -->
 <!-- Derya -->
+---
+
+<!-- _class: centered-narrow -->
+
+# <!--fit--> Few data?
+# <!--fit--> -> More data!
+## <!--fit--> 🧪 Synthetic data!
+
+<!-- Aaron -->
+---
+
+# SMOTE  
+### Synthetic Minority Oversampling Technique  
+
+* Used when we have **imbalanced datasets**  
+  → e.g., 90% fit people and only 10% overweight  
+* Problem: ML models may **ignore the minority class**  
+* SMOTE helps by **creating new synthetic examples** of the minority class instead of just copying them  
+
+---
+
+# How SMOTE Works (Simple Example)
+
+Imagine you have these few minority points:
+
+SMOTE picks two close points (neighbors) and makes a **new one in between**  
+
+* Example:  
+  * Point A: (2, 4)  
+  * Point B: (4, 6)  
+  * New point: somewhere between them, e.g., (3, 5)  
+
+✅ This makes the minority class **denser and more balanced**
+
 ---
 
 # Why better?
