@@ -45,6 +45,16 @@ style: |
     margin-left: auto;
     margin-right: auto;
   }
+  
+  /* Hide bullet points before h3 headings */
+  li > h3 {
+    list-style: none;
+    margin-left: -1.5em;
+  }
+  
+  li:has(> h3) {
+    list-style: none;
+  }
 
 --- 
 
@@ -124,7 +134,7 @@ style: |
 * Training periodization
 * List of exercises
 * Alimentation improvement tips
-* Corresponding improvement % [Continuos]
+* Corresponding improvement % [Continuous]
 
 <!-- Aaron -->
 ---
@@ -134,28 +144,32 @@ style: |
 <div class="columns">
 <div>
 
-### Research & Literature 📚
-* Scientific papers
-* Studies & publications
-* Medical research
+* ### Research & Literature 📚
 
-### Real-World Data 💪
-* Gyms & fitness centers
-* Professional coaches
-* Testers & athletes
+  * Scientific papers
+  * Studies & publications
+  * Medical research
+
+* ### Real-World Data 💪
+
+  * Gyms & fitness centers
+  * Professional coaches
+  * Testers & athletes
 
 </div>
 <div>
 
-### User-Generated 📱
-* Surveys & questionnaires
-* Smartwatch data
-* Fitness app tracking
+* ### User-Generated 📱
 
-### Continuous Growth 🔄
-* Data collected from **Apex** users
-* Feedback loops improve recommendations
-* Always learning, always improving
+  * Surveys & questionnaires
+  * Smartwatch data
+  * Fitness app tracking
+
+* ### Continuous Growth 🔄
+
+  * Data collected from **Apex** users
+  * Feedback loops improve recommendations
+  * Always learning, always improving
 
 </div>
 </div>
@@ -198,7 +212,7 @@ style: |
 <!--Aaron-->
 ---
 
-# How SMOTE Works (Simple Example)
+# How SMOTE Works
 
 **Real scenario:** You have only 10% overweight users in your data
 
@@ -249,7 +263,7 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
   * Recommend based on comparable cases
 * **Random Forests**
   * Robust decision-making
-  * Handles complex user attributes
+  * Handles complex non-linear relationships
 
 </div>
 <div>
@@ -261,8 +275,8 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
   * Predict improvement percentages
   * Estimate workout outcomes
 * **Gradient Boosting**
+  * Iterative error minimization
   * High accuracy predictions
-  * Optimizes training intensity
 
 </div>
 </div>
@@ -271,17 +285,17 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
 
 ### Data Processing 🔧
 * **SMOTE** - Balance underrepresented groups
-* **Cross-Validation** - Ensure model reliability
-* **Feature Engineering** - Extract meaningful patterns from raw data
+* **Cross-Validation** - Ensure model generalization
+* **Feature Engineering** - Extract domain-specific patterns
 
 ---
 
-# Why **Apex** is better?
-* Open source
-* Effective optimization
-* Lower risk of injury
-* First of it's kind!
-* Always improving!
+# Why is **Apex** better?
+* **Open source** - Transparent algorithms, community improvements
+* **Data-driven optimization** - Personalized vs generic programs
+* **Lower injury risk** - Biomechanical constraints and progressive overload
+* **First of its kind** - Novel ML-based personal training approach
+* **Continuous learning** - Improves with more user data
 
 <!-- Aaron -->
 ---
@@ -300,13 +314,15 @@ introduction/implementation of the solution-->
 <!-- Derya -->
 ---
 
-# Ethical consideration
-* Privacy issues GDPR
-* Trainers losing their job
-<!--Aaron-->
-* Gyms could get less subscriptions
-* Biases -> <!-- data might be biased towards young men as their fitness abilities improves biologically better, making the algorithm advise too hard/many exercise to an older person ending in an injury as they trust our platform-->Risk of injuries <!-- this could be fault of the algorithm or fault of people providing faulty data-->
-<!-- As anecdote, the people who created  chips that are able to recognize faces, are now used for killing with drone and not to find people or criminals or child etc.-->
+# Ethical Considerations
+* **Privacy & GDPR compliance** - Sensitive biometric and health data
+* **Labor market impact** - Potential displacement of personal trainers
+* **Economic effects** - Reduced gym memberships
+* **Algorithmic bias** - Training data skewed toward young, fit males
+  * Risk: Inappropriate recommendations for underrepresented groups
+  * Can lead to injuries in elderly or different body types
+* **Dual-use concerns** - Technology repurposed beyond original intent
+  * Example: Facial recognition → military drone targeting
 
 <!-- Both -->
 
