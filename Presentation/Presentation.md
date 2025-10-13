@@ -100,10 +100,11 @@ style: |
 
 ---
 
-# How does **Apex** work? // would expand a lil more on the slide
+# How does **Apex** work?
 * Input every data available
 * Outputs personalized training plans
-<!-- i will try to put a diagramm wich is showing of our input and output -->
+<!-- Feedback from Aaron: would expand a lil more on the slide-->
+<!-- Description how the App works-->
 <!-- Derya -->
 
 ---
@@ -228,18 +229,25 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
 ---
 
 # Description of the possible solution
-# ISNT@ THIS A REPETITION FROM SLIDE 4?? FNDIALIDNDJSAJDNSACJKDANCDKSANKC
-* Functionalities
+# 
+* Functionalities 🔧
   * Data entry by the End User
   * Data from Internet
   * The End user receives a personalized training plan.
+<!-- Feedback from Aaron: ISNT@ THIS A REPETITION FROM SLIDE 4?? It looks the same, but it's not the same XD in hier, i will describe what the Functionality is, what date we got and where-->
 <!--Derya this actually -->
 ---
-# Methods, tools and Algorithms // would add some other algorithm, see next slide to get inspiration/
+# Methods, tools and Algorithms // Noch anpassen -> would add some other algorithm, see next slide to get inspiration/
 
 <!---functionalities (insert data and receive a personalized training plan, etc.)
 #Supervised Learning--->
   * Supervised Learning
+    * Classification
+    * Regression
+  * Unsupervised Learning
+    * Clustering
+    * Association
+    * Generalization 
   * K-Nearest Neighbors (KNN)
 <!-- machine learning many would be used and then assembled together -->
   * Random Forests
@@ -301,6 +309,7 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
 ---
 # Possible risks, barriers and obstacles
 * Incomplete data can lead to incorrect results.
+<!-- Hier beispiel machen wie, dass ein User ein falsches Resultat erhalten könnte, weil es gewisse daten fehlen-->
   * can lead to injuries due to incorrect training suggestions
 * Requires a lot of time and resources.
   * high costs und delays
@@ -331,3 +340,7 @@ introduction/implementation of the solution-->
 # Sources
 
 --- 
+
+<!-- ![QR Code](qrcode.png){width=400px} -->
+
+![QR Code w:500](qrcode.png)
