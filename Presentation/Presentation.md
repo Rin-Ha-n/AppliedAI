@@ -73,7 +73,7 @@ style: |
 # If yes! Meet **Apex** ![w:220 center](data/apex-logo.svg)
 ## Your AI-powered personal trainer
 
-<!-- Derya -->
+<!-- Aaron -->
 
 ---
 
