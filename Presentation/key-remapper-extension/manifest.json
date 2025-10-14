@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "F19/F20 Key Remapper",
+  "version": "1.0",
+  "description": "Remaps F19 to Left Arrow and F20 to Right Arrow",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_title": "F19/F20 Key Remapper - Active"
+  }
+}
