@@ -119,6 +119,9 @@ style: |
 * time is always too little
 ![bg right:50% w:500](data/image.png)
 <!-- Derya -->
+
+---
+
 # How does **Apex** work?
 * the End User enters his **data**
 * Apex learns withe the collected **User data** and **data** from Internet and trys to find common similarities.
