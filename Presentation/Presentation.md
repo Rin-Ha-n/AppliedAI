@@ -107,7 +107,7 @@ style: |
 <!-- Derya -->
 ---
 # How does **Apex** work?
-* the End User enters his **data** <!--(Bithyday, Age, wight, Bodysize, etc....) -->
+* the End User enters his **data**
 * Apex learns withe the collected **User data** and **data** from Internet and trys to find common similarities.
 * At the end the User receives a personalized trainingsplan
 <!-- Derya -->
