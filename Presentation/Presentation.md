@@ -39,11 +39,18 @@ style: |
     text-align: center;
   }
   
-  section.centered-fit h1,
-  section.centered-fit h2 {
+  section.centered-fit h3 {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+  }
+  
+  section.equalize-fit h3 {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.6rem;
   }
   
   /* Hide bullet points before h3 headings */
@@ -56,6 +63,9 @@ style: |
     list-style: none;
   }
 
+---
+<!-- _class: centered-narrow -->
+# Welcome!
 --- 
 
 <!-- _class: centered-narrow -->
@@ -80,7 +90,8 @@ style: |
 <div class="columns">
 <div>
 
-# Our AI: **Apex**
+# **Apex**, maximizing
+# your training
 ![w:220](data/apex-logo.svg)
 
 </div>
@@ -97,14 +108,7 @@ style: |
     * Kickboxing
 
 <!-- Start Aaron -> Derya -->
-
----
-
-# How does **Apex** work?
-* the End User enters his **data** <!--(Bithyday, Age, wight, Bodysize, etc....) -->
-* Apex learns withe the collected **User data** and **data** from Internet and trys to find common similarities.
-* At the end the User receives a personalized trainingsplan
-<!-- Derya -->
+<!-- AI personal trainer which Helps maximizing training results -->
 
 ---
 
@@ -116,11 +120,19 @@ style: |
 <!-- Derya -->
 ---
 
+# How does **Apex** work?
+* the End User enters his **data** <!--(Bithyday, Age, wight, Bodysize, etc....) -->
+* Apex learns withe the collected **User data** and **data** from Internet and trys to find common similarities.
+* At the end the User receives a personalized trainingsplan
+<!-- Derya -->
+
+---
+
 # Data time !
 <div class="columns">
 <div>
 
-## Input attributes:
+* ### Input attributes:
 * Objective [categorical]
 * Available time [categorical]
 * Favorite exercises [categorical]
@@ -130,7 +142,7 @@ style: |
 </div>
 <div>
 
-## Output attributes:
+* ### Output attributes:
 * Training periodization
 * List of exercises
 * Alimentation improvement tips
@@ -167,9 +179,7 @@ style: |
 
 * ### Continuous Growth 🔄
 
-  * Data collected from **Apex** users
-  * Feedback loops improve recommendations
-  * Always learning, always improving
+  * Data collected from users
 
 </div>
 </div>
@@ -180,23 +190,21 @@ style: |
 
 # Data Preprocessing 🔧
 
-* Convert different units & scales to comparable values
-  * Height (cm), Weight (kg), Age (years) → same scale
+* Convert different units & scales to SI units
+  * Height (feet -> cm), Weight (lb -> kg), etc.
 
 * **Standardization** → for classification algorithms (KNN, Random Forest)
 * **Normalization** → for regression algorithms
-
-✅ Enables AI to find hidden correlations between attributes
 
 <!-- Aaron -->
 ---
 
 
-<!-- _class: centered-fit -->
+<!-- _class: centered-fit equalize-fit -->
 
-# <!--fit--> Few data?
-# <!--fit--> -> More data!
-## <!--fit--> 🧪 Synthetic data!
+### Few data?
+* ### -> More data!
+* ### 🧪 Synthetic data!
 
 <!-- Aaron -->
 ---
@@ -246,6 +254,9 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
 focuses on sorting observations into specific class
 -> exp: We catagorise some Data "*sick*" an "*healthy*" so that the user receives a training plan that does not harm his health
 ![bg right top w:200](data/classification.png)
+
+---
+
 ### Regression 🎯
 Based on making prediction or identification of trends
 -> exp: predict a good Trainingsplan for the User
@@ -290,10 +301,11 @@ Based on making prediction or identification of trends
 # Possible risks, barriers and obstacles
 * **Incomplete data can lead to incorrect results.**
   * can lead to injuries due to incorrect training suggestions
-* **Requires a lot of time and resources.**
-  * high costs und delays
+* **Time and resources.**
   * Data must always be updated and maintained.
-* **Data breach and Data loss.**
+  * Possible data loss.
+  * High costs und delays.
+* **Data breach.**
 <!--zu grosse daten, kann das system, die App überlasten (App stürzt ab)-->
 
 <!-- Derya -->
@@ -307,7 +319,7 @@ Based on making prediction or identification of trends
   * Risk: Inappropriate recommendations for underrepresented groups
   * Can lead to injuries in elderly or different body types
 * **Dual-use concerns** - Technology repurposed beyond original intent
-  * Example: Facial recognition → military drone targeting
+  * Example: Military training
 
 <!-- Both -->
 
