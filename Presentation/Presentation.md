@@ -213,22 +213,23 @@ style: |
 ### Synthetic Minority Oversampling Technique  
 
 * Used when we have **imbalanced datasets**  
-  → e.g., 90% fit people and only 10% overweight  
-* Problem: ML models may **ignore the minority class**  
-* SMOTE helps by **creating new synthetic examples** of the minority class instead of just copying them
+  → e.g., 90% fit people and 10% overweight  
+* Problem: ML models may **bias the majority class**  
+* SMOTE **creates new synthetic data** of the minority class
 
 <!--Aaron-->
 ---
 
 # How SMOTE Works
 
-**Real scenario:** You have only 10% overweight users in your data
-
-SMOTE finds two **similar overweight users** and creates a new realistic profile between them:
+**Our scenario:** 10% overweight, 90% fit
 
 * **User A:** Age 35, Weight 95kg, Beginner level  
 * **User B:** Age 40, Weight 100kg, Beginner level  
-* **New synthetic user:** Age 37, Weight 97kg, Beginner level ✨
+
+SMOTE finds two **similar overweight users** and creates a new realistic profile:
+
+* **synthetic user C:** Age 37, Weight 97kg, Beginner level ✨
 
 ✅ This makes the minority class **denser and more balanced**(27%)
 
