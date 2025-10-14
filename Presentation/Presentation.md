@@ -86,13 +86,13 @@ style: |
 </div>
 <div>
 
-* Aaron Ricca
+* **Aaron Ricca**
     * Eletrical and computer engineering
     * Ex professional skier
     * Climber
 
 
-* Derya Özsoy
+* **Derya Özsoy**
     * Informatik
     * Kickboxing
 
@@ -101,15 +101,14 @@ style: |
 ---
 
 # How does **Apex** work?
-* Input every data available
-* Outputs personalized training plans
-<!-- Feedback from Aaron: would expand a lil more on the slide-->
-<!-- Description how the App works-->
+* the End User enters his **data** <!--(Bithyday, Age, wight, Bodysize, etc....) -->
+* Apex learns withe the collected **User data** and **data** from Internet and trys to find common similarities.
+* At the end the User receives a personalized trainingsplan
 <!-- Derya -->
 
 ---
 
-# What's the problem ?
+# What's the problem ? <!-- maybe it should be the 2 slid?-->
 * training is far from optimized
 * hard to find good exercises
 * time is always too little
@@ -227,52 +226,30 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
 
 <!--Aaron-->
 ---
+# What are we using for **Apex**
 
-# Description of the possible solution
-
-* **Functionalities 🔧**
-  * the End User enters his **data**
-  * Apex connects the data from the End user and the data from the Internet.
-  * The End user receives a personalized training plan.
-<!-- Feedback from Aaron: ISNT@ THIS A REPETITION FROM SLIDE 4?? It looks the same, but it's not the same XD in hier, i will describe what the Functionality is, what date we got and where-->
-<!--Derya this actually -->
----
-# Methods, tools and Algorithms // Noch anpassen -> would add some other algorithm, see next slide to get inspiration/
-
-<!---functionalities (insert data and receive a personalized training plan, etc.)
-#Supervised Learning--->
-  * **Methods > Supervised Learning**
-    * Supervised Learning <!-- we use, because-->
+* **Supervised Learning**
+  * trained using labeled training data
+  * learns to recognize patterns in order to make predictions for new, unknown and similar data 
+  * All Datas are structured
       * Classification
       * Regression
-    * Unsupervised Learning
-      * Clustering
-      * Association
-      * Generalization 
-  * K-Nearest Neighbors (KNN)
-<!-- machine learning many would be used and then assembled together -->
-  * Random Forests
 
-<!--Description and justification of the methods, tools, and algorithms used
-- Random Forest: data structure (date from End User)
-  provides robust and interpretable results
-- KNN: Simple implementation, good results are achieved with similar user types. 
--->
 <!-- Derya -->
 ---
+# Tools
 
-# Methods, tools and Algorithms
-
-<div class="columns">
-<div>
+<!-- <div class="columns">
+<div> --> 
 
 ### Classification 🎯
-* **K-Nearest Neighbors (KNN)**
-  * Find similar user profiles
-  * Recommend based on comparable cases
-* **Random Forests**
-  * Robust decision-making
-  * Handles complex non-linear relationships
+focuses on sorting observations into specific class
+-> exp: We catagorise some Data "*sick*" an "*healthy*" so that the user receives a training plan that does not harm his health
+![bg right top w:200](data/classification.png)
+### Regression 🎯
+Based on making prediction or identification of trends
+-> exp: predict a good Trainingsplan for the User
+![bg right bottom w:200](data/regression.png)
 
 </div>
 <div>
@@ -283,10 +260,12 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
 * **Linear Regression**
   * Predict improvement percentages
   * Estimate workout outcomes
-* **Gradient Boosting**
-  * Iterative error minimization
-  * High accuracy predictions
-
+* **K-Nearest Neighbors (KNN)**
+  * Find similar user profiles
+  * Recommend based on comparable cases
+* **Random Forests**
+  * Robust decision-making
+  * Handles complex non-linear relationships
 </div>
 </div>
 
@@ -315,10 +294,7 @@ SMOTE finds two **similar overweight users** and creates a new realistic profile
   * high costs und delays
   * Data must always be updated and maintained.
 * **Data breach and Data loss.**
-<!--Description of the risks associated with an 
-introduction/implementation of the solution-->
-<!--Description of possible barriers and obstacles to the introduction/implementation of the solution
--->
+<!--zu grosse daten, kann das system, die App überlasten (App stürzt ab)-->
 
 <!-- Derya -->
 ---
@@ -341,6 +317,5 @@ introduction/implementation of the solution-->
 
 --- 
 
-<!-- ![QR Code](qrcode.png){width=400px} -->
-
+<!-- _class: centered-fit -->
 ![QR Code w:500](qrcode.png)
