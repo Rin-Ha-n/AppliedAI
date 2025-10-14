@@ -112,22 +112,19 @@ style: |
 
 ---
 
-# What's the problem ? <!-- maybe it should be the 2 slid?-->
+# What's the problem ? 
+
 * training is far from optimized
 * hard to find good exercises
 * time is always too little
 ![bg right:50% w:500](data/image.png)
 <!-- Derya -->
----
-
 # How does **Apex** work?
-* the End User enters his **data** <!--(Bithyday, Age, wight, Bodysize, etc....) -->
+* the End User enters his **data**
 * Apex learns withe the collected **User data** and **data** from Internet and trys to find common similarities.
 * At the end the User receives a personalized trainingsplan
 <!-- Derya -->
-
 ---
-
 # Data time !
 <div class="columns">
 <div>
@@ -277,6 +274,7 @@ Based on making prediction or identification of trends
 * **Random Forests**
   * Robust decision-making
   * Handles complex non-linear relationships
+  * Gradient Boosting 
 </div>
 </div>
 
