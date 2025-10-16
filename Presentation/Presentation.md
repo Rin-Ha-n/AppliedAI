@@ -75,6 +75,19 @@ style: |
     list-style: none;
   }
 
+  /* Compact styling for dense sources slides */
+  section.sources-compact {
+    font-size: 1.4em;
+    line-height: 1.2;
+  }
+  section.sources-compact h1:not([data-auto-scaling]) {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  section.sources-compact li {
+    margin: 0.15rem 0;
+  }
+
 ---
 <!-- _class: centered-narrow -->
 # Welcome!
@@ -110,7 +123,7 @@ style: |
 <div>
 
 * **Aaron Ricca**
-    * Eletrical and computer engineering
+    * Electrical and computer engineering
     * Ex professional skier
     * Climber
 
@@ -254,7 +267,7 @@ style: |
 * **Supervised Learning**
   * trained using labeled training data
   * learns to recognize patterns in order to make predictions for new, unknown and similar data 
-  * All Datas are structured
+  * All Data are structured
       * Classification
       * Regression
 
@@ -267,14 +280,14 @@ style: |
 
 ### Classification 🎯
 focuses on sorting observations into specific class
--> exp: We catagorise some Data "*sick*" an "*healthy*" so that the user receives a training plan that does not harm his health
+-> exp: We categorize some Data "*sick*" an "*healthy*" so that the user receives a training plan that does not harm his health
 ![bg right top w:200](data/classification.png)
 
 ---
 
 ### Regression 🎯
 Based on making prediction or identification of trends
--> exp: predict a good Trainingsplan for the User
+-> exp: predict a good training plan for the User
 ![bg right bottom w:200](data/regression.png)
 
 </div>
@@ -322,7 +335,7 @@ Based on making prediction or identification of trends
   * Possible data loss.
   * High costs und delays.
 * **Data breach.**
-<!--zu grosse daten, kann das system, die App überlasten (App stürzt ab)-->
+<!--Too much data can overload the system or the app (the app may crash)-->
 
 <!-- Derya -->
 ---
@@ -341,7 +354,45 @@ Based on making prediction or identification of trends
 
 ---
 
-# Sources
+<!-- _class: sources-compact -->
+# Sources (1/2)
+<div class="columns">
+<div>
+
+- Mainly class lectures
+- Brownlee, Jason. ‘SMOTE for Imbalanced Classification with Python’. MachineLearningMastery.Com, 16 January 2020. https://www.machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/.
+- ChatGPT. ‘ChatGPT’. Accessed 26 September 2025. https://chatgpt.com/?locale=en-US.
+- Dorogush, Anna Veronika, Vasily Ershov, and Andrey Gulin. ‘CatBoost: Gradient Boosting with Categorical Features Support’. arXiv:1810.11363. Preprint, arXiv, 24 October 2018. https://doi.org/10.48550/arXiv.1810.11363.
+
+</div>
+<div>
+
+- ‘Explainable Boosting Machine — InterpretML Documentation’. Accessed 26 September 2025. https://interpret.ml/docs/ebm.html?utm_source=chatgpt.com.
+- ‘Gradient Boosting Trees vs. Random Forests | Baeldung on Computer Science’. 25 February 2022. https://www.baeldung.com/cs/gradient-boosting-trees-vs-random-forests.
+
+</div>
+</div>
+
+---
+
+<!-- _class: sources-compact -->
+# Sources (2/2)
+<div class="columns">
+<div>
+
+- Moronta, Sendoa. ‘Generating, Comparing and Evaluating Synthetic Tabular Data with SDV’. Medium, 18 September 2025. https://medium.com/@sendoamoronta/generating-comparing-and-evaluating-synthetic-tabular-data-with-sdv-1198e97c8603.
+- Ph.D, Davide Gazzè-. ‘SDV: Generate Synthetic Data Using GAN and Python’. Medium, 30 March 2023. https://medium.datadriveninvestor.com/sdv-generate-synthetic-data-using-gan-and-python-4c26a1e4b3c2.
+
+</div>
+<div>
+
+- Step By Step Data Science. ‘LightFM Tutorial for Creating Recommendations in Python’. Accessed 26 September 2025. https://www.stepbystepdatascience.com/hybrid-recommender-lightfm-python.
+- Wikipedia. ‘Cross-validation (statistics)’. 30 September 2025. https://en.wikipedia.org/w/index.php?title=Cross-validation_(statistics)&oldid=1314208627.
+- Wikipedia. ‘Synthetic minority oversampling technique’. 22 August 2025. https://en.wikipedia.org/w/index.php?title=Synthetic_minority_oversampling_technique&oldid=1307265510.
+
+</div>
+</div>
+
 
 --- 
 
