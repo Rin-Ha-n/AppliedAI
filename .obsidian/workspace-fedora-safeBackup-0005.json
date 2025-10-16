@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "a0225600169d669a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2dad3d6717236054",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19422e1f37162938",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Presentation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Presentation"
+            }
+          },
+          {
+            "id": "78a58f5f63cabd95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "30765452eaa688e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f14658d917bb7071",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "111baf7a7532f197",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ab6ab3afb4fa2aa2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "24e20f97a0699ae8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "719efd75d1b7b666",
+    "type": "split",
+    "children": [
+      {
+        "id": "d45f9187186cbb76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa7fb7330e531da2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Notes"
+            }
+          },
+          {
+            "id": "ace4204d56ed1ab8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Moodle/Unit 1 Introduction, Part I/Assignment01.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Assignment01"
+            }
+          },
+          {
+            "id": "1fb4fea366c4d1d5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1be0f291e03678f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Moodle/Unit 1 Introduction, Part I/Assignment01.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Assignment01"
+            }
+          },
+          {
+            "id": "49cb251713c8e08c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 331.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "19422e1f37162938",
+  "lastOpenFiles": [
+    "Notes.md",
+    "Moodle/Group Project/Project Instructions.pdf",
+    "Presentation.md",
+    "Ethics.md",
+    "Moodle/Unit 14 Ethics/14 Ethics Discussion.pdf",
+    "Moodle/Unit 13 Reinforcement Learning/13 Reinforcement Learning Applied AI.pdf",
+    "Moodle/Unit 11 Neural Networks, Part II/11 Neural Networks Part II Applied AI.pdf",
+    "master",
+    "Moodle/Unit 12 Language Models/Assignment12.md",
+    "Moodle/Unit 11 Neural Networks, Part II/Assignment11.md",
+    "Moodle/Unit 12 Language Models/Assignment12.pdf",
+    "Moodle/Unit 12 Language Models/textmodel.xlsx",
+    "Moodle/Unit 12 Language Models/mytextmodel.xlsx",
+    "Moodle/Unit 12 Language Models/lu41246ad0xf.tmp",
+    "Moodle/Unit 12 Language Models/textmodel (Copy).xlsx",
+    "Test/Test01/random-forest/README.md",
+    "Moodle/Unit 10 Neural Networks, Part I/Assignment 10.md",
+    "Notes-fedora-safeBackup-0001.md",
+    "Notes-fedora-safeBackup-0005.md",
+    "Notes-fedora-safeBackup-0004.md",
+    "Notes-fedora-safeBackup-0003.md",
+    "Moodle/Unit 9 Decision Tree _ Random Forest/Assignment 09.md",
+    "Notes-fedora-safeBackup-0002.md",
+    "Moodle/Unit 7 k-Nearest Neighbors/Assignment 07.md",
+    "Moodle/Unit 7 k-Nearest Neighbors/Drawing 2025-09-10 09.06.35.excalidraw.md",
+    "Moodle/Unit 6 Linear Regression/Assignment 06.md",
+    "pages/contents.md",
+    "Notes 1.md",
+    "Moodle/Unit 5 Principal Component Analysis/Assignment05.md",
+    "Notes 1-fedora-safeBackup-0001.md",
+    "Moodle/Unit 4 k-Means/Assignment04.md",
+    "Moodle/Unit 2 Introduction, Part II/Assignment 02.md",
+    "Moodle/Unit 1 Introduction, Part I/A1.md"
+  ]
+}

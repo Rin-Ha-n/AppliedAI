@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "a0225600169d669a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce421c7694a4d48d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79257a07be925c95",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Moodle/Unit 2 Introduction, Part II/Assignment 02.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Assignment 02"
+            }
+          },
+          {
+            "id": "1ecf4f374df88007",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notes"
+            }
+          },
+          {
+            "id": "4175cd3ee6246620",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "30765452eaa688e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f14658d917bb7071",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "111baf7a7532f197",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ab6ab3afb4fa2aa2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "24e20f97a0699ae8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "719efd75d1b7b666",
+    "type": "split",
+    "children": [
+      {
+        "id": "d45f9187186cbb76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa7fb7330e531da2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Moodle/Unit 1 Introduction, Part I/Assignment01.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Assignment01"
+            }
+          },
+          {
+            "id": "ace4204d56ed1ab8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Moodle/Unit 1 Introduction, Part I/Assignment01.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Assignment01"
+            }
+          },
+          {
+            "id": "1fb4fea366c4d1d5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1be0f291e03678f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Moodle/Unit 1 Introduction, Part I/Assignment01.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Assignment01"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "4175cd3ee6246620",
+  "lastOpenFiles": [
+    "Notes.md",
+    "Moodle/Unit 2 Introduction, Part II/Assignment 02.md",
+    "Moodle/Unit 2 Introduction, Part II/02 Introduction Part II Applied AI.pdf",
+    "whiteboards/68bea582-3a20-45cc-a74e-68d421e982e9.edn",
+    "whiteboards",
+    "logseq/custom.css",
+    "pages/contents.md",
+    "pages",
+    "logseq/config.edn",
+    "journals",
+    "logseq",
+    "Moodle/Unit 1 Introduction, Part I/Assignment01 solution.pdf",
+    "Moodle/Unit 1 Introduction, Part I/A1.md",
+    "Moodle/Unit 1 Introduction, Part I/Assignment01.pdf"
+  ]
+}

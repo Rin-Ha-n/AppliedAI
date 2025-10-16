@@ -1,0 +1,10 @@
+{
+  "CHROME_PATH": "",
+  "ThemePath": "https://rnd195.github.io/my-marp-themes/gradient.css",
+  "EnableHTML": false,
+  "MathTypesettings": "mathjax",
+  "HTMLExportMode": "bare",
+  "EXPORT_PATH": "",
+  "EnableSyncPreview": true,
+  "EnableMarkdownItPlugins": false
+}
