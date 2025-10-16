@@ -149,7 +149,7 @@ style: |
 
 # How does **Apex** work?
 * the End User enters his **data**
-* Apex learns withe the collected **User data** and **data** from Internet and tries to find common similarities.
+* Apex learns with the collected **User data** and **data** from Internet and tries to find common patterns.
 * At the end the User receives a personalized training plan
 <!-- Derya -->
 ---
@@ -235,8 +235,8 @@ style: |
 <!-- Aaron -->
 ---
 
-# SMOTE  
-### Synthetic Minority Oversampling Technique  
+# *SMOTE* 
+### *S*ynthetic *M*inority *O*versampling *Te*chnique  
 
 * Used for **imbalanced datasets**  
   → e.g., 90% fit people and 10% overweight  
@@ -344,7 +344,7 @@ Based on making prediction or identification of trends
 * **Privacy & GDPR compliance** - Sensitive biometric and health data
 * **Labor market impact** - Potential displacement of personal trainers
 * **Economic effects** - Reduced gym memberships
-* **Algorithmic bias** - Training data skewed toward young, fit males
+* **Algorithmic bias** - Training data skewed toward young, fit persons
   * Risk: Inappropriate recommendations for underrepresented groups
   * Can lead to injuries in elderly or different body types
 * **Dual-use concerns** - Technology repurposed beyond original intent
