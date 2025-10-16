@@ -345,5 +345,21 @@ Based on making prediction or identification of trends
 
 --- 
 
-<!-- _class: centered-fit -->
-![QR Code w:500](data/qrcode.png)
+<div class="columns">
+<div style="text-align: center; display: flex; flex-direction: column; justify-content: center;">
+
+![w:220 center](data/apex-logo.svg)
+
+# Apex: Any questions?
+
+We're happy to dive deeper.
+
+</div>
+<div style="text-align: center; display: flex; flex-direction: column; justify-content: center;">
+
+"https://github.com/Rin-Ha-n/AppliedAI/blob/development/Presentation/Presentation.pdf"
+
+![QR Code w:300 center](data/qrcode.png)
+
+</div>
+</div>
