@@ -346,4 +346,4 @@ Based on making prediction or identification of trends
 --- 
 
 <!-- _class: centered-fit -->
-![QR Code w:500](qrcode.png)
+![QR Code w:500](data/qrcode.png)
