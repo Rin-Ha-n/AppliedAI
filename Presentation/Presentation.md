@@ -53,6 +53,18 @@ style: |
     font-size: 2.6rem;
   }
   
+  /* Hide bullet points for no-bullet class */
+  li.no-bullet {
+    list-style: none;
+    margin-left: 0;
+  }
+  
+  /* Hide bullets for no-bullets section */
+  section.no-bullets li {
+    list-style: none;
+    margin-left: 0;
+  }
+  
   /* Hide bullet points before h3 headings */
   li > h3 {
     list-style: none;
@@ -124,8 +136,8 @@ style: |
 
 # How does **Apex** work?
 * the End User enters his **data**
-* Apex learns withe the collected **User data** and **data** from Internet and trys to find common similarities.
-* At the end the User receives a personalized trainingsplan
+* Apex learns withe the collected **User data** and **data** from Internet and tries to find common similarities.
+* At the end the User receives a personalized training plan
 <!-- Derya -->
 ---
 # Data time !
@@ -133,11 +145,11 @@ style: |
 <div>
 
 * ### Input attributes:
-* Objective [categorical]
-* Available time [categorical]
-* Favorite exercises [categorical]
+* Objective
+* Available time
+* Favorite exercises
 * Biological attributes (Height, body fat%, medical condition, etc.)
-* Alimentation (Diet type, enhancing substances, etc.)
+* Alimentation (Cuisine, Diet type, enhancing substances, etc.)
 
 </div>
 <div>
@@ -149,6 +161,7 @@ style: |
 * Corresponding improvement % [Continuous]
 
 <!-- Aaron -->
+<!-- corresponding improvement % -> diminishing returns-->
 ---
 
 # Data Sources 📊
@@ -158,13 +171,13 @@ style: |
 
 * ### Research & Literature 📚
 
-  * Scientific papers
+  - Scientific papers
   * Studies & publications
   * Medical research
 
 * ### Real-World Data 💪
 
-  * Gyms & fitness centers
+  - Gyms & fitness centers
   * Professional coaches
   * Testers & athletes
 
@@ -173,13 +186,13 @@ style: |
 
 * ### User-Generated 📱
 
-  * Surveys & questionnaires
+  - Surveys & questionnaires
   * Smartwatch data
   * Fitness app tracking
 
 * ### Continuous Growth 🔄
 
-  * Data collected from users
+  -  Data collected from users
 
 </div>
 </div>
@@ -203,7 +216,7 @@ style: |
 <!-- _class: centered-fit equalize-fit -->
 
 ### Few data?
-* ### -> More data!
+* ### -> More data?
 * ### 🧪 Synthetic data!
 
 <!-- Aaron -->
@@ -212,9 +225,9 @@ style: |
 # SMOTE  
 ### Synthetic Minority Oversampling Technique  
 
-* Used when we have **imbalanced datasets**  
+* Used for **imbalanced datasets**  
   → e.g., 90% fit people and 10% overweight  
-* Problem: ML models may **bias the majority class**  
+* Problem: ML models **bias the majority class**  
 * SMOTE **creates new synthetic data** of the minority class
 
 <!--Aaron-->
@@ -222,17 +235,18 @@ style: |
 
 # How SMOTE Works
 
+<!-- _class: no-bullets -->
+
 **Our scenario:** 10% overweight, 90% fit
 
-* **User A:** Age 35, Weight 95kg, Beginner level  
-* **User B:** Age 40, Weight 100kg, Beginner level  
+* - -**User A:** Age 35, Weight 95kg, Beginner level
+* - -**User B:** Age 40, Weight 100kg, Beginner level
 
-SMOTE finds two **similar overweight users** and creates a new realistic profile:
+* SMOTE finds two **similar overweight users** and creates a new realistic profile:
 
-* **synthetic user C:** Age 37, Weight 97kg, Beginner level ✨
+*  - -**Synthetic user C:** Age 37, Weight 97kg, Beginner level ✨
 
-✅ This makes the minority class **denser and more balanced**(27%)
-
+* ✅ Makes the minority class **denser and more balanced** (27%)
 <!--Aaron-->
 ---
 # What are we using for **Apex**
@@ -287,7 +301,7 @@ Based on making prediction or identification of trends
 ### Data Processing 🔧
 * **SMOTE** - Balance underrepresented groups
 * **Cross-Validation** - Ensure model generalization
-* **Feature Engineering** - Extract domain-specific patterns
+* **PCA (Principal component analysis)** - Reduce the data dimensionality
 
 ---
 
