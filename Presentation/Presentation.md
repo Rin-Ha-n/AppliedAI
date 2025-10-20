@@ -223,6 +223,7 @@ style: |
 * **Normalization** → for regression algorithms
 
 <!-- Aaron -->
+
 ---
 
 
@@ -262,52 +263,130 @@ style: |
 * ✅ Makes the minority class **denser and more balanced** (27%)
 <!--Aaron-->
 ---
-# What are we using for **Apex**
+# What methods are there and what are we using for **Apex**?
 
-* **Supervised Learning**
-  * trained using labeled training data
-  * learns to recognize patterns in order to make predictions for new, unknown and similar data 
-  * All Data are structured
-      * Classification
-      * Regression
+<div class="columns">
+<div>
+
+**Unsupervised Learning**
+✖️ No labeled data needed
+* looks for inherent similarities and differences within the data on its own
+
+**Semi-supervised Learning** 
+* between supervised and unsupervised Learning
+* has sizable amount of unlabeled data with a small amount of labeled data. 
+</div>
+<div>
+
+**Supervised Learning**
+✔️ labeled data needed
+* learns patterns and relationships between input and output data.
+* learns to recognize patterns in order to make predictions for new, unknown and similar data.
+
+</div>
+</div>
 
 <!-- Derya -->
+
 ---
-# Tools
-
-<!-- <div class="columns">
-<div> --> 
-
-### Classification 🎯
-focuses on sorting observations into specific class
--> exp: We categorize some Data "*sick*" an "*healthy*" so that the user receives a training plan that does not harm his health
-![bg right top w:200](data/classification.png)
+# Tools for Supervised Learning 🎯
+### Classification
+* predict an outcome or event in the future. 
+* outcome can take two possible values such as True or False, Default or no Default, yes or no.
+-> exp: We catagorise some Data "*sick*" an "*healthy*" so that the user receives a training plan that does not harm his health
+![bg right top w:400](data/classification.png)
 
 ---
 
-### Regression 🎯
-Based on making prediction or identification of trends
--> exp: predict a good training plan for the User
-![bg right bottom w:200](data/regression.png)
+### Regression 
+* predict continuous values such as sales, salary, weight, or temperature. 
+-> exp: predict a good Trainingsplan for the User
+![bg right bottom w:400](data/regression.png)
 
+---
+# Unsupervised Learning Methods
+
+## Clustering
+used to identify patterns, segment data, and simplify complex datasets by grouping similar items together.
+
+![bg right bottom w:500](data/clustering.png)
+
+---
+## Association rules
+used to discover interesting relationships and dependencies between items in large datasets.
+The rules are expressed as "if-then" statements, such as X ->  Y
+
+---
+## Dimensionality reduction
+Reduces high dimensions to fewer features.
+Commonly used algorithms are PCA (Principal Component Analysis) and SVD (Singular Value Decomposition)
+Retains important information while removing unnecessary complexity. It's useful for Data visualization (2D/3D) and Model simplification.
+Helps avoid the “curse of dimensionality” (too many features make learning difficult).
+
+![bg right bottom w:500](data/dimensionality_reduction.png)
+
+---
+## Supervised Learning Algorithms📈
+<div class="columns">
+<div>
+
+**Linear Regression**
+* Prediction of continuous values (e.g., weight based on height).
+* Uses a linear relationship between input and target variables.
+* Corresponds to the “line of best fit.”
+</div>
+<div>
+
+**Logistic Regression**
+* The target variable is binary (e.g., yes/no, 1/0).
+* Uses the logit function to predict probabilities.
+* Ideal for classification problems.
+</div>
+<div>
+
+--- 
+<div class="columns">
+<div>
+
+**Decision Tree**
+* Makes decisions using a tree-like structure.
+* Each leaf represents a decision or prediction.
+* Easy to interpret and visually understandable.
+</div>
+<div>
+
+**K Nearest Neighbor**
+* Categorizes data based on proximity to other points.
+* The new point is assigned to the class of its nearest neighbors.
+* Simple, but computationally intensive for large data sets.
 </div>
 <div>
 
 ---
+<div class="columns">
+<div>
 
-### Algorithms 📈
-* **Linear Regression**
-  * Predict improvement percentages
-  * Estimate workout outcomes
-* **K-Nearest Neighbors (KNN)**
-  * Find similar user profiles
-  * Recommend based on comparable cases
-* **Random Forests**
-  * Robust decision-making
-  * Handles complex non-linear relationships
-  * Gradient Boosting 
+**Random Forest**
+* Combination of many decision trees (ensemble method).
+* Provides more accurate and stable results.
+* Can be used for classification and regression.
 </div>
+<div>
+
+**Neural Networks**
+* Inspired by the human brain.
+* Consist of layers of neurons (input, hidden layers, output).
+* Learn by adjusting weights based on errors (backpropagation).
+* Can recognize complex patterns and nonlinear relationships.
 </div>
+<div>
+
+**Naive Bayes**
+* Based on Bayes' theorem (probabilities).
+* Assumption: Features are independent (naive).
+* Fast, efficient, particularly useful for text classification.
+</div>
+<div>
 
 ---
 
@@ -335,7 +414,6 @@ Based on making prediction or identification of trends
   * Possible data loss.
   * High costs und delays.
 * **Data breach.**
-<!--Too much data can overload the system or the app (the app may crash)-->
 
 <!-- Derya -->
 ---
