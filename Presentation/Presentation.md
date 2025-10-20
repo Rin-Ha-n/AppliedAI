@@ -293,15 +293,14 @@ style: |
 # Tools for Supervised Learning 🎯
 ### Classification
 * predict an outcome or event in the future. 
-* outcome can take two possible values such as True or False, Default or no Default, yes or no.
--> exp: We catagorise some Data "*sick*" an "*healthy*" so that the user receives a training plan that does not harm his health
+* outcome can take two possible values <!--such as True or False, Default or no Default, yes or no. exp: We catagorise some Data "*sick*" an "*healthy*" so that the user receives a training plan that does not harm his health -->
 ![bg right top w:400](data/classification.png)
 
 ---
 
 ### Regression 
 * predict continuous values such as sales, salary, weight, or temperature. 
--> exp: predict a good Trainingsplan for the User
+<!-- exp: predict a good Trainingsplan for the User -->
 ![bg right bottom w:400](data/regression.png)
 
 ---
@@ -320,11 +319,12 @@ The rules are expressed as "if-then" statements, such as X ->  Y
 ---
 ## Dimensionality reduction
 Reduces high dimensions to fewer features.
-Commonly used algorithms are PCA (Principal Component Analysis) and SVD (Singular Value Decomposition)
-Retains important information while removing unnecessary complexity. It's useful for Data visualization (2D/3D) and Model simplification.
-Helps avoid the “curse of dimensionality” (too many features make learning difficult).
+Helps avoid the “curse of dimensionality” 
 
-![bg right bottom w:500](data/dimensionality_reduction.png)
+![bg right bottom w:500](data/dimensionality_reducation.png)
+<!-- Commonly used algorithms are PCA (Principal Component Analysis) and SVD (Singular Value Decomposition)
+Retains important information while removing unnecessary complexity. It's useful for Data visualization (2D/3D) and Model simplification.-->
+<!-- (too many features make learning difficult). -->
 
 ---
 ## Supervised Learning Algorithms📈
@@ -332,14 +332,14 @@ Helps avoid the “curse of dimensionality” (too many features make learning d
 <div>
 
 **Linear Regression**
-* Prediction of continuous values (e.g., weight based on height).
+* Prediction of continuous values <!--(e.g., weight based on height).-->
 * Uses a linear relationship between input and target variables.
 * Corresponds to the “line of best fit.”
 </div>
 <div>
 
 **Logistic Regression**
-* The target variable is binary (e.g., yes/no, 1/0).
+* The target variable is binary <!-- (e.g., yes/no, 1/0). -->
 * Uses the logit function to predict probabilities.
 * Ideal for classification problems.
 </div>
