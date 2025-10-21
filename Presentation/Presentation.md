@@ -177,19 +177,16 @@ transition: fade
 * ✅ Makes the minority class **denser** 10% -> 27%
 <!--Aaron-->
 ---
-# What methods are there and what are we using for **Apex**?
+# What tools are used for **Apex**?
+
+* ### Data Processing 🔧
+* **SMOTE** - Balance underrepresented groups
+* **Cross-Validation** - Ensure model generalization
+* **PCA (Principal component analysis)** - Reduce the data dimensionality
+
+---
 
 <div class="columns">
-<div>
-
-**Unsupervised Learning**
-✖️ No labeled data
-* inherent similarities and differences
-
-**Semi-supervised Learning** 
-* between supervised and unsupervised Learning
-* has unlabeled labeled data. 
-</div>
 <div>
 
 **Supervised Learning**
@@ -216,27 +213,14 @@ transition: fade
 ![bg right bottom w:400](data/regression.png)
 
 ---
-# Unsupervised Learning Methods
 
-## Clustering
-identifies patterns, segment data, and simplify complex datasets by grouping similar items together.
-
-![bg right bottom w:500](data/clustering.png)
-
----
 ## Association rules
 used to discover interesting relationships and dependencies between items in large datasets.
 The rules are expressed as "if-then" statements, such as X ->  Y
 
 ---
-## Dimensionality reduction
-Reduces high dimensions to fewer features.
-Helps avoid the “curse of dimensionality” 
 
-![bg right bottom w:500](data/dimensionality_reducation.png)
-
----
-## Supervised Learning Algorithms📈
+## Algorithms📈
 <div class="columns">
 <div>
 
@@ -283,13 +267,6 @@ Helps avoid the “curse of dimensionality”
 </div>
 <div>
 
-**Neural Networks**
-* Inspired by the human brain.
-* Consist of layers of neurons (input, hidden layers, output).
-* Learn by adjusting weights based on errors (backpropagation).
-* Can recognize complex patterns and nonlinear relationships.
-</div>
-<div>
 
 **Naive Bayes**
 * Based on Bayes' theorem (probabilities).
@@ -297,13 +274,6 @@ Helps avoid the “curse of dimensionality”
 * Fast, efficient, particularly useful for text classification.
 </div>
 <div>
-
----
-
-### Data Processing 🔧
-* **SMOTE** - Balance underrepresented groups
-* **Cross-Validation** - Ensure model generalization
-* **PCA (Principal component analysis)** - Reduce the data dimensionality
 
 ---
 
