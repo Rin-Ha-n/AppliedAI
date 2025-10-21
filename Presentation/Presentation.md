@@ -204,6 +204,7 @@ transition: fade
 used to discover interesting relationships and dependencies between items in large datasets.
 The rules are expressed as "if-then" statements, such as X ->  Y
 
+--> searching for relationship -> make some example
 ---
 
 ## Algorithms📈
