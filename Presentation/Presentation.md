@@ -185,24 +185,21 @@ style: |
 
 * ### Research & Literature 📚
 
-  - Scientific papers
-  * Studies & publications
-  * Medical research
-
-* ### Real-World Data 💪
-
-  - Gyms & fitness centers
-  * Professional coaches
-  * Testers & athletes
-
-</div>
-<div>
+  - Studies & publications
+  * Scientific papers
 
 * ### User-Generated 📱
 
   - Surveys & questionnaires
   * Smartwatch data
-  * Fitness app tracking
+
+</div>
+<div>
+
+* ### Real-World Data 💪
+
+  - Gyms & fitness centers
+  * Testers & athletes
 
 * ### Continuous Growth 🔄
 
@@ -261,7 +258,7 @@ style: |
 
 *  - -**Synthetic user C:** Age 37, Weight 97kg, Beginner level ✨
 
-* ✅ Makes the minority class **denser and more balanced** (27%)
+* ✅ Makes the minority class **denser** 10% -> 27%
 <!--Aaron-->
 ---
 # What methods are there and what are we using for **Apex**?
@@ -401,7 +398,7 @@ Retains important information while removing unnecessary complexity. It's useful
 # Why is **Apex** better?
 * **Open source** - Transparent algorithms, community improvements
 * **Data-driven optimization** - Personalized vs generic programs
-* **Lower injury risk** - Biomechanical constraints and progressive overload
+* **Lower injury risk** - Training plan based on personal condition
 * **First of its kind** - Novel ML-based personal training approach
 * **Continuous learning** - Improves with more user data
 
@@ -425,7 +422,7 @@ Retains important information while removing unnecessary complexity. It's useful
 * **Economic effects** - Reduced gym memberships
 * **Algorithmic bias** - Training data skewed toward young, fit persons
   * Risk: Inappropriate recommendations for underrepresented groups
-  * Can lead to injuries in elderly or different body types
+  * Can lead to injuries in elderly, etc.
 * **Dual-use concerns** - Technology repurposed beyond original intent
   * Example: Military training
 
