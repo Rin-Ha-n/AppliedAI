@@ -183,19 +183,19 @@ transition: fade
 <div>
 
 **Unsupervised Learning**
-✖️ No labeled data needed
-* looks for inherent similarities and differences within the data on its own
+✖️ No labeled data
+* inherent similarities and differences
 
 **Semi-supervised Learning** 
 * between supervised and unsupervised Learning
-* has sizable amount of unlabeled data with a small amount of labeled data. 
+* has unlabeled labeled data. 
 </div>
 <div>
 
 **Supervised Learning**
 ✔️ labeled data needed
-* learns patterns and relationships between input and output data.
-* learns to recognize patterns in order to make predictions for new, unknown and similar data.
+* learns from patterns and relationships 
+* recognize patterns to make predictions 
 
 </div>
 </div>
@@ -205,22 +205,21 @@ transition: fade
 ---
 # Tools for Supervised Learning 🎯
 ### Classification
-* predict an outcome or event in the future. 
-* outcome can take two possible values <!--such as True or False, Default or no Default, yes or no. exp: We catagorise some Data "*sick*" an "*healthy*" so that the user receives a training plan that does not harm his health -->
+* predict an outcome or event
+* outcome can take two possible values 
 ![bg right top w:400](data/classification.png)
 
 ---
 
 ### Regression 
-* predict continuous values such as sales, salary, weight, or temperature. 
-<!-- exp: predict a good Trainingsplan for the User -->
+* predict continuous values
 ![bg right bottom w:400](data/regression.png)
 
 ---
 # Unsupervised Learning Methods
 
 ## Clustering
-used to identify patterns, segment data, and simplify complex datasets by grouping similar items together.
+identifies patterns, segment data, and simplify complex datasets by grouping similar items together.
 
 ![bg right bottom w:500](data/clustering.png)
 
@@ -235,9 +234,6 @@ Reduces high dimensions to fewer features.
 Helps avoid the “curse of dimensionality” 
 
 ![bg right bottom w:500](data/dimensionality_reducation.png)
-<!-- Commonly used algorithms are PCA (Principal Component Analysis) and SVD (Singular Value Decomposition)
-Retains important information while removing unnecessary complexity. It's useful for Data visualization (2D/3D) and Model simplification.-->
-<!-- (too many features make learning difficult). -->
 
 ---
 ## Supervised Learning Algorithms📈
@@ -322,11 +318,7 @@ Retains important information while removing unnecessary complexity. It's useful
 ---
 # Possible risks, barriers and obstacles
 * **Incomplete data can lead to incorrect results.**
-  * can lead to injuries due to incorrect training suggestions
 * **Time and resources.**
-  * Data must always be updated and maintained.
-  * Possible data loss.
-  * High costs und delays.
 * **Data breach.**
 
 <!-- Derya -->
