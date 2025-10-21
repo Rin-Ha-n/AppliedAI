@@ -167,12 +167,12 @@ transition: fade
 
 **Our scenario:** 10% overweight, 90% fit
 
-* - -**User A:** Age 35, Weight 95kg, Beginner level
-* - -**User B:** Age 40, Weight 100kg, Beginner level
+* - -**User A:** Age 35, Weight 195kg, Beginner level
+* - -**User B:** Age 40, Weight 200kg, Beginner level
 
 * SMOTE finds two **similar overweight users** and creates a new realistic profile:
 
-*  - -**Synthetic user C:** Age 37, Weight 97kg, Beginner level ✨
+*  - -**Synthetic user C:** Age 37, Weight 197kg, Beginner level ✨
 
 * ✅ Makes the minority class **denser** 10% -> 27%
 <!--Aaron-->
@@ -186,21 +186,7 @@ transition: fade
 
 ---
 
-<div class="columns">
-<div>
-
-**Supervised Learning**
-✔️ labeled data needed
-* learns from patterns and relationships 
-* recognize patterns to make predictions 
-
-</div>
-</div>
-
-<!-- Derya -->
-
----
-# Tools for Supervised Learning 🎯
+## Supervised Learning🔧
 ### Classification
 * predict an outcome or event
 * outcome can take two possible values 
@@ -298,7 +284,7 @@ The rules are expressed as "if-then" statements, such as X ->  Y
 * **Privacy & GDPR compliance** - Sensitive biometric and health data
 * **Labor market impact** - Potential displacement of personal trainers
 * **Economic effects** - Reduced gym memberships
-* **Algorithmic bias** - Training data skewed toward young, fit persons
+* **Algorithmic bias** - ML skewed toward young, fit persons
   * Risk: Inappropriate recommendations for underrepresented groups
   * Can lead to injuries in elderly, etc.
 * **Dual-use concerns** - Technology repurposed beyond original intent
