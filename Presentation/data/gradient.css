@@ -86,3 +86,92 @@ section.tinytext>ul,
 section.tinytext>blockquote {
   font-size: 0.65em;
 }
+
+/* || CUSTOM LAYOUT CLASSES */
+/* Two-column grid layout */
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+/* Centered narrow sections */
+section.centered-narrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+section.centered-narrow h1:not([data-auto-scaling]) {
+  font-size: 3rem;
+  width: 100%;
+}
+
+section.centered-narrow h2 {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Centered fit sections */
+section.centered-fit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+section.centered-fit h3 {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Equalized fit sections */
+section.equalize-fit h3 {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.6rem;
+}
+
+/* Hide bullet points for no-bullet class */
+li.no-bullet {
+  list-style: none;
+  margin-left: 0;
+}
+
+/* Hide bullets for no-bullets section */
+section.no-bullets li {
+  list-style: none;
+  margin-left: 0;
+}
+
+/* Hide bullet points before h3 headings */
+li > h3 {
+  list-style: none;
+  margin-left: -1.5em;
+}
+
+li:has(> h3) {
+  list-style: none;
+}
+
+/* Compact styling for dense sources slides */
+section.sources-compact {
+  font-size: 1.4em;
+  line-height: 1.2;
+}
+
+section.sources-compact h1:not([data-auto-scaling]) {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+section.sources-compact li {
+  margin: 0.15rem 0;
+}
