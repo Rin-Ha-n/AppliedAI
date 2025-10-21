@@ -66,8 +66,8 @@ transition: fade
 
 # How does **Apex** work?
 * the End User enters his **data**
-* Apex learns with the collected **User data** and **data** from Internet and tries to find common patterns.
-* At the end the User receives a personalized training plan
+* Apex using it's algorithm creates various plans
+* At the end the User choose it's best personalized training plan
 <!-- Derya -->
 ---
 # Data time !
@@ -205,6 +205,7 @@ used to discover interesting relationships and dependencies between items in lar
 The rules are expressed as "if-then" statements, such as X ->  Y
 
 --> searching for relationship -> make some example
+
 ---
 
 ## Algorithms📈
