@@ -205,18 +205,32 @@ transition: fade
 <div>
 
 **Linear Regression**
-* Prediction of continuous values <!--(e.g., weight based on height).-->
+* Prediction of continuous values 
 * Uses a linear relationship between input and target variables.
 * Corresponds to the “line of best fit.”
 </div>
 <div>
 
 **Logistic Regression**
-* The target variable is binary <!-- (e.g., yes/no, 1/0). -->
+* The target variable is binary
 * Uses the logit function to predict probabilities.
 * Ideal for classification problems.
 </div>
 <div>
+
+<!--
+
+**Lineare Regression:
+is ideal if you want to predict a continuous value, such as:
+Optimal training time per week (e.g., 180 minutes)
+Recommended number of training days
+Calorie requirements, etc.
+
+**Logistic Regression**
+Calculates probability, simple & fast classification
+If P > 0.5, then prediction = “Yes” 
+
+-->
 
 --- 
 <div class="columns">
