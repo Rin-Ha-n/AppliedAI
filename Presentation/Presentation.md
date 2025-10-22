@@ -219,7 +219,6 @@ transition: fade
 <div>
 
 <!--
-
 **Lineare Regression:
 is ideal if you want to predict a continuous value, such as:
 Optimal training time per week (e.g., 180 minutes)
@@ -229,7 +228,6 @@ Calorie requirements, etc.
 **Logistic Regression**
 Calculates probability, simple & fast classification
 If P > 0.5, then prediction = “Yes” 
-
 -->
 
 --- 
@@ -237,8 +235,7 @@ If P > 0.5, then prediction = “Yes”
 <div>
 
 **Decision Tree**
-* Makes decisions using a tree-like structure.
-* Each leaf represents a decision or prediction.
+* Learn decision rules
 * Easy to interpret and visually understandable.
 </div>
 <div>
@@ -263,9 +260,8 @@ If P > 0.5, then prediction = “Yes”
 
 
 **Naive Bayes**
-* Based on Bayes' theorem (probabilities).
+* Based on Bayes theorem probabilities.
 * Assumption: Features are independent (naive).
-* Fast, efficient, particularly useful for text classification.
 </div>
 <div>
 
