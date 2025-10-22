@@ -241,12 +241,20 @@ If P > 0.5, then prediction = “Yes”
 <div>
 
 **K Nearest Neighbor**
-* Categorizes data based on proximity to other points.
-* The new point is assigned to the class of its nearest neighbors.
+* searches for similar datasets
 * Simple, but computationally intensive for large data sets.
 </div>
 <div>
 
+<!--
+**Decision Tree**
+Makes decisions such as “If motivation > 6 and training days ≥ 4 → goal is achieved.”
+Disision Tree is also easy to visualize and is understandable
+
+**K Nearest Neighbor**
+Searches for the most similar users in the dataset.
+For example, if 3 out of 5 similar users have achieved their goal → Prediction: “Yes” otherweis "No"
+-->
 ---
 <div class="columns">
 <div>
@@ -261,10 +269,22 @@ If P > 0.5, then prediction = “Yes”
 
 **Naive Bayes**
 * Based on Bayes theorem probabilities.
-* Assumption: Features are independent (naive).
+* He uses all inputs, assumes independence, and calculates probabilities
 </div>
 <div>
 
+<!--
+**Random Forest**
+ensemble method
+Build many trees, each one makes a decision → majority wins
+Advantage: Robust against overfitting, very good performance.
+
+
+**Naive Bayes**
+is a classic classification algorithm based on probabilities.
+In our case, one example would be “The probability that the target will be achieved is 82%.”
+He uses all inputs, assumes independence, and calculates probabilities
+-->
 ---
 
 # Why is **Apex** better?
@@ -276,10 +296,19 @@ If P > 0.5, then prediction = “Yes”
 
 <!-- Aaron -->
 ---
-# Possible risks, barriers and obstacles
+# What are the Possible risks?
+
 * **Incomplete data can lead to incorrect results.**
+<!--
+While we work with big and sensitif data, we can't have incomplete data, because incompleat data leats to incorrect results that also means the user could injure themselves
+-->
 * **Time and resources.**
+<!-- 
+That is why we need a lot of time and resources, it can also lead to data loss, which leads to high cost and delays.
+-->
 * **Data breach.**
+<!-- baucause we have many sensitiv data, this can also  to data breach which leads to a big privacy issue 
+-->
 
 <!-- Derya -->
 ---
@@ -287,7 +316,14 @@ If P > 0.5, then prediction = “Yes”
 # Ethical Considerations
 * **Privacy & GDPR compliance** - Sensitive biometric and health data
 * **Labor market impact** - Potential displacement of personal trainers
+<!--
+It also has impcat to the market, because people doesn't need Personal training any more, they will loos thair jop
+-->
 * **Economic effects** - Reduced gym memberships
+<!--
+this also reduces the Membership for the gym
+
+-->
 * **Algorithmic bias** - ML skewed toward young, fit persons
   * Risk: Inappropriate recommendations for underrepresented groups
   * Can lead to injuries in elderly, etc.
