@@ -164,12 +164,13 @@ transition: fade
 
 # How SMOTE Works
 
-<!-- _class: no-bullets -->
 
 **Our scenario:** 10% overweight, 90% fit
 
 * - -**User A:** Age 35, Weight 195kg, Beginner level
 * - -**User B:** Age 40, Weight 200kg, Beginner level
+
+<!-- _class: no-bullets -->
 
 * SMOTE finds two **similar overweight users** and creates a new realistic profile:
 
@@ -401,18 +402,18 @@ this also reduces the Membership for the gym
 <div class="columns">
 <div style="text-align: center; display: flex; flex-direction: column; justify-content: center;">
 
+"https://github.com/Rin-Ha-n/AppliedAI/blob/development/Presentation/Presentation.pdf"
+
+![QR Code w:300 center](data/qrcode.png)
+
+</div>
+<div style="text-align: center; display: flex; flex-direction: column; justify-content: center;">
+
 ![w:220 center](data/apex-logo.svg)
 
 # Apex: Any questions?
 
 We're happy to dive deeper.
-
-</div>
-<div style="text-align: center; display: flex; flex-direction: column; justify-content: center;">
-
-"https://github.com/Rin-Ha-n/AppliedAI/blob/development/Presentation/Presentation.pdf"
-
-![QR Code w:300 center](data/qrcode.png)
 
 </div>
 </div>
