@@ -69,6 +69,7 @@ transition: fade
 * Apex using it's algorithm creates various plans
 * At the end the User choose it's best personalized training plan
 <!-- Derya -->
+
 ---
 # Data time !
 <div class="columns">
@@ -187,16 +188,37 @@ transition: fade
 ---
 
 ## Supervised Learning🔧
+<!--
+We use supervised learning with classified and regressive training data, 
+because we work with many big and sensitiv data. Our Data has to be labeled. It learns patterns and relationships between input and output data it also learns to recognize patterns in order to make predictions for new, unknown and similar data.
+-->
+
+<!--
+Since we use Supervisand learning we use two Tools called Classification and Regression.
+-->
+
 ### Classification
 * predict an outcome or event
 * outcome can take two possible values 
 ![bg right top w:400](data/classification.png)
+
+<!--
+classification predict an outcome or event in the future. 
+as an example, our app assigns users a training type category based on their inpout. as an example: 
+- when the user wants build muscle
+- lose weight
+- Stay healthy etc.....
+-->
 
 ---
 
 ### Regression 
 * predict continuous values
 ![bg right bottom w:400](data/regression.png)
+
+<!--
+and for #Regression peict continuous vlue, as example: our app predicts how many minutes of training per Week (like cardio, strength traing) are optimal for them to reach their goals efficiently.
+-->
 
 ---
 
